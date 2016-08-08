@@ -6,4 +6,4 @@ Authors:
   Lilian Liu 
   Jamie Ye
 
-# conveyonnaise.github.io
+Link to access website: conveyonnaise.github.io
