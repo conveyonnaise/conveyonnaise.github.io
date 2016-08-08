@@ -1,0 +1,678 @@
+header .mdl-navigation__link {
+    color: whitesmoke !important;
+}
+
+html,
+body {
+    line-height: 1 !important;
+}
+
+.member-name {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mdl-layout__drawer .mdl-layout-title {
+    font-size: 14px;
+}
+
+.card-container {
+    bottom: 1px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
+
+.card-image {
+    -ms-flex-item-align: center;
+    -webkit-align-self: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+}
+
+.card-image > .mdl-card__actions {
+    background: rgba(0, 0, 0, 0.3);
+    height: 52px;
+    padding: 16px;
+}
+
+.card-image__filename {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-image.mdl-card {
+    height: 350px;
+    width: 600px;
+}
+
+.challenge-img-1 {
+    background: url('../assets/challenge/challenge-img-1-full.jpg') center / cover no-repeat !important;
+}
+
+.challenge-img-2 {
+    background: url('../assets/challenge/challenge-img-2-full.jpg') center / cover no-repeat !important;
+}
+
+.challenge-img-3 {
+    background: url('../assets/challenge/challenge-img-3-full.jpg') center / cover no-repeat !important;
+}
+
+.challenge-img-4 {
+    background: url('../assets/challenge/challenge-img-4-full.jpg') center / cover no-repeat !important;
+}
+
+.challenge-img-5 {
+    background: url('../assets/challenge/challenge-img-5-full.jpg') center / cover no-repeat !important;
+}
+
+.challenge-img-6 {
+    background: url('../assets/challenge/challenge-img-6-full.jpg') center / cover no-repeat !important;
+}
+
+.description-text {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    width: 700px !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.design-cat-subtitle {
+    text-align: center;
+}
+
+.design-img {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+.design-img-centering {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-height: 600px;
+    margin: 8px 0 8px 0 !important;
+    overflow: hidden;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.design-img--description {
+    font-size: 18px;
+    font-family: "Roboto";
+    line-height: 30px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 70% !important;
+}
+
+.design-img--hover {
+    background: rgba(240, 240, 240, 0.85);
+    height: 100%;
+    opacity: 0;
+    padding: 0 !important;
+    position: absolute;
+    width: 100%;
+    -webkit-transition: opacity 0.1s ease-out;
+    transition: opacity 0.1s ease-out;
+}
+
+.design-img--hover:hover {
+    opacity: 1;
+}
+
+.design-img--nosidemargin {
+    margin: 8px 0 8px 0 !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.design-img--smalltitle {
+    font-size: 30px;
+    max-height: 50px;
+    margin-bottom: 0 !important;
+    margin-top: 15px !important;
+    font-family: "Roboto";
+    opacity: 0.8;
+}
+
+.design-img--title {
+    font-size: 50px;
+    max-height: 50px;
+    margin-bottom: 0 !important;
+    margin-top: 15px !important;
+    font-family: "Roboto";
+    opacity: 0.8;
+}
+
+.feature-headline-1 {
+    height: 70px;
+    text-align: center;
+}
+
+.gallery {
+    max-height: 400px;
+    opacity: 0;
+}
+
+.gallery .item > img {
+    overflow: hidden;
+    height: 100%;
+}
+
+.gallery-nav-buttons a {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.gallery-nav-buttons nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.gallery a img {
+    height: 50px;
+}
+
+.item {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.play-button {
+    background: url("../assets/play.png") no-repeat;
+    height: 72px;
+    left: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    top: 50%;
+    width: 72px;
+}
+
+.mdl-layout__drawer-button {
+    color: inherit !important;
+}
+
+.nav-divider {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.90);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    overflow: auto;
+    opacity: 0.72;
+    top: 0;
+    width: 100%;
+}
+
+.section-headline {
+    font-family: "Roboto", "Helvetica";
+    font-size: 45px;
+    opacity: 0.54;
+}
+
+.solution-gallery--pics {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.transparent-header {
+    background: url("../assets/teamphoto.jpg") center / cover no-repeat;
+    background-position: center 20%;
+}
+
+.transparent-header .mdl-layout__header,
+.transparent-header .mdl-layout__drawer-button,
+.member-name {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: white;
+}
+
+.vid-container {
+    display: block;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 51%;
+    padding-top: 25px;
+    height: 0;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.vid-thumb {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    bottom: 0;
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+#challenge-gallery .mdl-cell {
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    margin: 5px;
+}
+
+#challenge-gallery .mdl-cell:hover {
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+#challenge {
+    background: #eee;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+#challenge .feature-headline-1 {
+    max-height: 70px;
+}
+
+#challenge-gallery {
+    height: 400px;
+    width: 933px;
+}
+
+#design {
+    background: #eee;
+    height: auto;
+    width: 100%;
+}
+
+#design-item--cat {
+    position: relative;
+    bottom: 15%;
+}
+
+#design-item--mag {
+    bottom: 0;
+    font-size: 18px;
+    font-family: "Roboto";
+    line-height: 30px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    position: relative;
+    width: 80% !important;
+}
+
+#design-item--arm {
+    bottom: 0;
+    font-size: 17px;
+    font-family: "Roboto";
+    line-height: 27px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    position: relative;
+    width: 95% !important;
+}
+
+#design .feature-headline-1 {
+    margin-top: 20px;
+}
+
+#design > .mdl-grid {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 70%;
+}
+
+#design > .mdl-grid:nth-child(2) {
+    padding-left: 8px;
+    padding-right: 24px;
+}
+
+#feature {
+    background: #fafafa;
+    height: auto;
+    width: 100%;
+}
+
+#feature-title {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+#feature-video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-nav-buttons {
+    position: relative;
+    bottom: 50%;
+    z-index: 2;
+}
+
+#nav-title {
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+#solution {
+    background: #fafafa;
+    height: auto;
+    width: 100%;
+}
+
+#solution-gallery {
+    background: #fafafa;
+    width: 100%;
+}
+
+#solution-gallery .mdl-grid {
+    padding: 0;
+}
+
+#solution-gallery .mdl-grid .mdl-cell:first-child {
+    margin: 0 auto 0 auto;
+}
+
+#solution-gallery .mdl-cell {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#team {
+    height: 400px;
+    width: 100%;
+}
+
+#yt-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1600px) {
+    .card-image.mdl-card {
+        height: 650px;
+        width: 1200px;
+    }
+    .design-img--smalltitle {
+        font-size: 40px;
+    }
+    .description-text {
+        width: 55% !important;
+    }
+    .vid-container {
+        padding-bottom: 45.9%;
+    }
+    #challenge-gallery {
+        height: 450px;
+    }
+    #design > .mdl-grid {
+        width: 950px;
+    }
+    #solution-gallery > .mdl-cell--12-col {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .design-img--description {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .design-img--smalltitle {
+        font-size: 25px;
+    }
+    .nav-divider {
+        -webkit-box-flex: 8;
+        -webkit-flex: 8;
+        -ms-flex: 8;
+        flex: 8;
+    }
+    #challenge-expanded {
+        overflow: visible;
+    }
+    #challenge-gallery {
+        height: 500px;
+        left: 20px;
+    }
+    #design-item--cat {
+        bottom: 0;
+    }
+    #design-item--mag {
+        font-size: 14px;
+        line-height: 27px;
+        width: 90% !important;
+    }
+    #design-item--arm {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    #feature .feature-headline-1 {
+        height: 100px;
+    }
+    #feature-title {
+        font-size: 39px;
+    }
+    #nav-title {
+        bottom: 6px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .card-container {
+        top: 120px;
+        bottom: 0;
+    }
+    .design-img--description {
+        font-size: 14px;
+        line-height: 25px;
+        width: 88% !important;
+    }
+    .design-img--smalltitle {
+        font-size: 22px;
+    }
+    .design-img--title {
+        font-size: 40px;
+    }
+    #challenge-gallery {
+        width: auto;
+    }
+    #design > .mdl-grid {
+        width: 90%;
+    }
+    #design-item--mag {
+        font-size: 14px;
+        font-size: 2vw;
+        line-height: 25px;
+        line-height: 4vw;
+        width: 95% !important;
+    }
+    #design-item--arm {
+        font-size: 14px;
+        font-size: 2vw;
+        line-height: 22px;
+        line-height: 3vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card-container {
+        top: 200px;
+    }
+    .design-img--description {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0 auto 0 auto !important;
+        width: 95% !important;
+    }
+    .design-img--nosidemargin {
+        margin: 8px !important;
+    }
+    .design-img--smalltitle {
+        font-size: 28px;
+    }
+    .design-img--title {
+        font-size: 22px;
+    }
+    .gallery {
+        opacity: 1;
+    }
+    .gallery .item {
+        height: 300px !important;
+    }
+    .gallery-nav-buttons {
+        display: none;
+    }
+    .section-headline {
+        font-size: 35px;
+        text-align: center;
+    }
+    .transparent-header {
+        background: url("../assets/blurryteamphoto.jpg") center / cover no-repeat;
+        background-position: left -290px bottom -10px;
+    }
+    #challenge-gallery {
+        height: 350px;
+    }
+    #design > .mdl-grid:nth-child(2) {
+        padding-right: 8px;
+    }
+    #design-item--arm {
+        font-size: 15px;
+        font-size: 3.5vw;
+        line-height: 25px;
+        line-height: 5vw;
+    }
+    #design-item--mag {
+        font-size: 15px;
+        line-height: 25px;
+        width: 95% !important;
+    }
+    #design-item--tire {
+        font-size: 15px;
+        font-size: 3.5vw;
+        line-height: 25px;
+        line-height: 5vw;
+    }
+    #feature-title {
+        font-size: 30px;
+    }
+    #nav-title {
+        font-size: 20px;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    -webkit-animation: fadeIn 0.3s ease-in 1 forwards;
+    animation: fadeIn 0.3s ease-in 1 forwards;
+    pointer-events: all;
+}
+
+.fade-out {
+    -webkit-animation: fadeOut 0.2s ease-out 1 forwards;
+    animation: fadeOut 0.2s ease-out 1 forwards;
+}
