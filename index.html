@@ -31,11 +31,12 @@
 </head>
 
 <body>
- <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+ <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header transparent-header">
+        <div class="overlay"></div>
   <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
+      <h2 id="nav-title" class="mdl-typography--headline mdl-typography--font-thin">Conveyonnaise- ENPH 253 Summer 2016</h1>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
@@ -47,31 +48,31 @@
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
+    <span class="mdl-layout-title">Conveyonnaise</span>
+    <nav class="mdl-navigation mdl-typography--font-light mdl-typography--subhead">
       <a class="mdl-navigation__link" href="home">Home</a>
       <a class="mdl-navigation__link" href="competition">Competition</a>
       <a class="mdl-navigation__link" href="robot">Robot</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
+  	<!--Home Tab-->
+	<div id="home" class="mdl-grid">
+		<p>Home</p>
+	</div>	
+
+	<!--Competition Tab-->
+	<div id="competition" class="mdl-grid">
+		<p>competition</p>
+	</div>	
+
+	<!--RobotTab-->
+	<div id="robot" class="mdl-grid">
+		<p>Robot</p>
+	</div>	
+  	
   </main>
 </div>
-        
-<!--Home Tab-->
-<div id="home" class="mdl-grid">
-	<p>Home</p>
-</div>	
-
-<!--Home Tab-->
-<div id="competition" class="mdl-grid">
-	<p>competition</p>
-</div>	
-
-<!--Home Tab-->
-<div id="robot" class="mdl-grid">
-	<p>Robot</p>
-</div>	
 
 <!--Create Footer-->
 <footer class="mdl-mini-footer">
