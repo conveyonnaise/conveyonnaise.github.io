@@ -241,13 +241,16 @@ body {
 
 .transparent-header.home {
     background: url("../images/test.jpg") center / cover no-repeat;
+    background-position: center 100%;
+}
+.transparent-header.competition {
+    background: url("../images/competition.uberbots.png") center / cover no-repeat;
     background-position: center 10%;
 }
-
 .transparent-header .mdl-layout__header,
 .transparent-header .mdl-layout__drawer-button,
 .member-name {
-    color: black;
+    color: red;
 }
 
 .vid-container {
