@@ -244,7 +244,7 @@ body {
     background-position: center 20%;
 }
 
-.transparent-Cheader{
+.transparent-compheader{
     background: url("../images/competition.uberbots.png") center / cover;
     background-position: center 20%;
 }
@@ -252,8 +252,15 @@ body {
 .transparent-header .mdl-layout__header,
 .transparent-header .mdl-layout__drawer-button,
 .member-name {
-    color: white;
+    color: black;
 }
+
+.transparent-compheader .mdl-layout__header,
+.transparent-compheader .mdl-layout__drawer-button,
+.member-name {
+    color: black;
+}
+
 
 .vid-container {
     display: block;
