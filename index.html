@@ -19,44 +19,32 @@
 </head>
 
 <body>
- <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header transparent-header">
-        <div class="overlay"></div>
-        <!-- Transparent header -->
-        <header class="mdl-layout__header mdl-layout__header--transparent">
-            <div class="mdl-layout__header-row">
-                <h1 id="nav-title" class="mdl-typography--headline mdl-typography--font-thin">Conveyonnaise-ENPH 253</h1>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only mdl-typography--font-light mdl-typography--subhead">
-                    <a class="mdl-navigation__link" href="#home">Home</a>
-                    <a class="mdl-navigation__link" href="#competition">Competition</a>
-                    <a class="mdl-navigation__link" href="#robot">Robot</a>
-                </nav>
-                
-                <figure class="item">
-                                <div data-deferred-img="image/test.jpg"></div>
-                                <div class="gallery-nav-buttons">
-                                    <nav>
-                                        <a href="#item-5"><img src="image/test.jpg"> </a>
-                                    </nav>
-                                </div>
-                            </figure>
-
-            </div>
-        </header>
-
-<!-- Navigation Drawer -->
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <span class="mdl-layout-title mdl-typography--font-bold">Conveyonnaise-ENPH 253</span>
-            <nav class="mdl-navigation mdl-typography--font-light mdl-typography--subhead">
-                 <a class="mdl-navigation__link" href="#home">Home</a>
-                    <a class="mdl-navigation__link" href="#competition">Competition</a>
-                    <a class="mdl-navigation__link" href="#robot">Robot</a>
-            </nav>
-        </div>
-        
-        
+ <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Title</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="home">Home</a>
+        <a class="mdl-navigation__link" href="competition">Competition</a>
+        <a class="mdl-navigation__link" href="robot">Robot</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="home">Home</a>
+      <a class="mdl-navigation__link" href="competition">Competition</a>
+      <a class="mdl-navigation__link" href="robot">Robot</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+  </main>
+</div>
         
 <!--Home Tab-->
 <div id="home" class="mdl-grid">
