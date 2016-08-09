@@ -241,7 +241,7 @@ body {
 
 .transparent-header.home {
     background: url("../images/test.jpg") center / cover no-repeat;
-    background-position: center 100%;
+    background-position: center 10%;
 }
 .transparent-header.competition {
     background: url("../images/competition.uberbots.png") center / cover no-repeat;
