@@ -264,7 +264,7 @@ body {
 }
 
 .transparent-header {
-    background: url("../assets/teamphoto.jpg") center / cover no-repeat;
+    background: url("../image/test.jpg") center / cover no-repeat;
     background-position: center 20%;
 }
 
