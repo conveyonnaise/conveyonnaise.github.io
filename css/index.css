@@ -18,6 +18,12 @@ body {
     font-size: 14px;
 }
 
+.section-title{
+    font-size: 24px;  
+    text-align: center;
+    color: white;
+}
+
 .card-container {
     bottom: 1px;
     display: -webkit-box;
