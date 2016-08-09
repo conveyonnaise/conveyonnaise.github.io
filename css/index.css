@@ -1,5 +1,6 @@
 header .mdl-navigation__link {
-    color: black !important;
+    font-size: 20px;
+    color: white !important;
 }
 
 html,
