@@ -240,12 +240,12 @@ body {
 }
 
 .transparent-header{
-    background: url("../images/test.jpg") center / cover;
+    background: url("../images/competition.uberbots.png") center / cover;
     background-position: center 20%;
 }
 
 .transparent-headercompetition{
-    background: url("/images/competition.uberbots.png") center / cover;
+    background: url("../images/competition.uberbots.png") center / cover;
     background-position: center 20%;
 }
 
