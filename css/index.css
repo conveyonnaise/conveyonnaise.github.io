@@ -239,17 +239,15 @@ body {
     height: 100%;
 }
 
-.transparent-header {
+.transparent-header.home {
     background: url("../images/test.jpg") center / cover no-repeat;
-    background-position: center 20%;
+    background-position: center 10%;
 }
 
 .transparent-header .mdl-layout__header,
 .transparent-header .mdl-layout__drawer-button,
 .member-name {
-    /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-    color: white;
+    color: black;
 }
 
 .vid-container {
