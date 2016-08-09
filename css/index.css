@@ -239,15 +239,11 @@ body {
     height: 100%;
 }
 
-.transparent-header.home {
+.transparent-header{
     background: url("../images/test.jpg") center / cover no-repeat;
-    background-position: center 10%;
+    background-position: center 20%;
 }
 
-.transparent-header.competition {
-    background: url("../images/competition.uberbots.png") center / cover no-repeat;
-    background-position: center 10%;
-}
 .transparent-header .mdl-layout__header,
 .transparent-header .mdl-layout__drawer-button,
 .member-name {
