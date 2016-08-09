@@ -58,9 +58,10 @@ body {
 
 .description-text {
     font-size: 15px;
-    line-height: 23px;
-    text-align: center;
-    width: 700px !important;
+    color: white
+    line-height: 25px;
+    text-align: right;
+    width: 400px !important;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
