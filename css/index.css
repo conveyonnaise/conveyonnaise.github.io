@@ -1,5 +1,5 @@
 header .mdl-navigation__link {
-    color: whitesmoke !important;
+    color: black !important;
 }
 
 html,
@@ -240,7 +240,7 @@ body {
 }
 
 .transparent-header{
-    background: url("../images/test.jpg") center / cover no-repeat;
+    background: url("../images/test.jpg") center / cover;
     background-position: center 20%;
 }
 
