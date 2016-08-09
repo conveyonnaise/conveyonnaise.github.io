@@ -55,30 +55,6 @@ body {
     width: 600px;
 }
 
-.challenge-img-1 {
-    background: url('../assets/challenge/challenge-img-1-full.jpg') center / cover no-repeat !important;
-}
-
-.challenge-img-2 {
-    background: url('../assets/challenge/challenge-img-2-full.jpg') center / cover no-repeat !important;
-}
-
-.challenge-img-3 {
-    background: url('../assets/challenge/challenge-img-3-full.jpg') center / cover no-repeat !important;
-}
-
-.challenge-img-4 {
-    background: url('../assets/challenge/challenge-img-4-full.jpg') center / cover no-repeat !important;
-}
-
-.challenge-img-5 {
-    background: url('../assets/challenge/challenge-img-5-full.jpg') center / cover no-repeat !important;
-}
-
-.challenge-img-6 {
-    background: url('../assets/challenge/challenge-img-6-full.jpg') center / cover no-repeat !important;
-}
-
 .description-text {
     font-size: 15px;
     line-height: 23px;
@@ -211,7 +187,7 @@ body {
 }
 
 .play-button {
-    background: url("../assets/play.png") no-repeat;
+    background: url("../image/test.jpg") no-repeat;
     height: 72px;
     left: 50%;
     margin-left: -36px;
