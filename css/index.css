@@ -25,6 +25,13 @@ body {
     color: white;
 }
 
+.biography-name{
+    font-size: 20px;  
+    text-align: left;
+    text-indent: 150px;
+    color: white;
+}
+
 .card-container {
     bottom: 1px;
     display: -webkit-box;
